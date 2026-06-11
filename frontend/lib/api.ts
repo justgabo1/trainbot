@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://trainbot2026.onrender.com/api'
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://trainbot-4rob.onrender.com/api'
 })
 
 api.interceptors.request.use(config => {
